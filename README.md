@@ -4,13 +4,13 @@ ActionNetworkJS is a JavaScript library that provides a convenient interface for
 
 ## Setup
 
-`actionnetworkjs` is designed to work with both CommonJS and ES Modules, making it suitable for a wide range of JavaScript environments.
+`js-actionnetwork` is designed to work with both CommonJS and ES Modules, making it suitable for a wide range of JavaScript environments.
 
 ## Installation
 
 To install ActionNetworkJS, run the following command in your project directory:
 ```sh
-npm install actionnetworkjs
+npm install js-actionnetwork
 ```
 
 This will add ActionNetworkJS to your project's dependencies and allow you to start using the library right away.
@@ -21,7 +21,7 @@ This will add ActionNetworkJS to your project's dependencies and allow you to st
 
 To use ActionNetworkJS in a CommonJS environment, you can require the modules as follows:
 ```sh
-const ActionNetwork = require('actionnetworkjs').init('YOUR_API_KEY');
+const ActionNetwork = require('js-actionnetwork').init('YOUR_API_KEY');
 
 // Accessing individual modules
 const { People, Events, Campaigns } = ActionNetwork;
@@ -43,25 +43,25 @@ Replace `'YOUR_API_KEY'` with your actual ActionNetwork API key. The above examp
 
 ## Support for CommonJS and ES Modules
 
-`actionnetworkjs` is compatible with both CommonJS and ES Modules.
+`js-actionnetwork` is compatible with both CommonJS and ES Modules.
 
 ### CommonJS Usage
 
-If you are using a CommonJS environment (like Node.js with `require`), you can include `actionnetworkjs` in your project as follows:
+If you are using a CommonJS environment (like Node.js with `require`), you can include `js-actionnetwork` in your project as follows:
 
 ```sh
-const ActionNetwork = require('actionnetworkjs');
+const ActionNetwork = require('js-actionnetwork');
 ```
 
 ### ES Modules Usage
 
-For ES Modules (using `import` syntax), you can import `actionnetworkjs` like this:
+For ES Modules (using `import` syntax), you can import `js-actionnetwork` like this:
 
 ```sh
-import ActionNetwork from 'actionnetworkjs';
+import ActionNetwork from 'js-actionnetwork';
 ```
 
-Once you have initialized `actionnetworkjs` with your API key, you can start using the various modules provided by the library. Here are some examples:
+Once you have initialized `js-actionnetwork` with your API key, you can start using the various modules provided by the library. Here are some examples:
 
 
 ```sh
@@ -82,4 +82,4 @@ Refer to the [ActionNetwork API documentation](https://actionnetwork.org/docs) f
 
 ### Support
 
-If you encounter any issues or have questions regarding `actionnetworkjs`, please file an issue on the GitHub repository or contact the maintainers.
+If you encounter any issues or have questions regarding `js-actionnetwork`, please file an issue on the GitHub repository or contact the maintainers.

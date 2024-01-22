@@ -1,6 +1,6 @@
 {
     "name": "js-actionnetwork",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A comprehensive client library, ensuring full compatibility with the ActionNetwork v2 API",
     "main": "./cjs/actionnetwork.js",
     "exports": {

@@ -19,25 +19,15 @@ This will add ActionNetworkJS to your project's dependencies and allow you to st
 
 ### CommonJS
 
-To use ActionNetworkJS in a CommonJS environment, you can require the modules as follows:
+To use ActionNetworkJS in a CommonJS environment (like Node.js with `require`), you can require `js-actionnetwork` as follows:
 ```sh
 const ActionNetwork = require('js-actionnetwork').init('YOUR_API_KEY');
-
-// Accessing individual modules
-const { People, Events, Campaigns } = ActionNetwork;
-
-// Example usage: Retrieve all people
-People.people.get().then(allPeople => {
-console.log(allPeople);
-});
-
-// Example usage: Create a new event
-Events.event.post({ / event data / }).then(newEvent => {
-console.log(newEvent);
-});
-
-// ... and so on for other modules
 ```
+
+### ES Modules
+
+To use ActionNetworkJS in a ES Modules environment (using `import` syntax), you can you can import `js-actionnetwork` as follows:
+To use ES Modules (using `import` syntax), you can import `js-actionnetwork` like this:
 
 Replace `'YOUR_API_KEY'` with your actual ActionNetwork API key. The above example demonstrates how to initialize the library, access individual modules, and perform actions such as retrieving and creating resources.
 
@@ -51,6 +41,7 @@ If you are using a CommonJS environment (like Node.js with `require`), you can i
 
 ```sh
 const ActionNetwork = require('js-actionnetwork');
+const an = ActionNetwork.init('YOUR_API_KEY');
 ```
 
 ### ES Modules Usage
@@ -58,20 +49,24 @@ const ActionNetwork = require('js-actionnetwork');
 For ES Modules (using `import` syntax), you can import `js-actionnetwork` like this:
 
 ```sh
-import ActionNetwork from 'js-actionnetwork';
+import {init as ActionNetworkInit}  from 'js-actionnetwork';
+const an = ActionNetworkInit('YOUR_API_KEY');
 ```
 
 Once you have initialized `js-actionnetwork` with your API key, you can start using the various modules provided by the library. Here are some examples:
 
-
 ```sh
+// Accessing individual modules
+const { People, Events, Campaigns } = an;
+
+
 // List all people
-actionNetwork.People.people.get().then(allPeople => {
+People.people.get().then(allPeople => {
 console.log(allPeople);
 });
 
 // Create a new event
-actionNetwork.Events.event.post({ / event data / }).then(newEvent => {
+Events.event.post({ / event data / }).then(newEvent => {
 console.log(newEvent);
 });
 

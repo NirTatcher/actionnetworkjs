@@ -13,21 +13,6 @@ This will add ActionNetworkJS to your project's dependencies and allow you to st
 
 ## Usage
 
-### CommonJS
-
-To use ActionNetworkJS in a CommonJS environment (like Node.js with `require`), you can require `js-actionnetwork` as follows:
-```sh
-const ActionNetwork = require('js-actionnetwork').init('YOUR_API_KEY');
-```
-
-### ES Modules
-
-To use ActionNetworkJS in a ES Modules environment (using `import` syntax), you can you can import `js-actionnetwork` as follows:
-
-Replace `'YOUR_API_KEY'` with your actual ActionNetwork API key. The above example demonstrates how to initialize the library, access individual modules, and perform actions such as retrieving and creating resources.
-
-## Support for CommonJS and ES Modules
-
 `js-actionnetwork` is compatible with both CommonJS and ES Modules.
 
 ### CommonJS Usage

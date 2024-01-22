@@ -1,5 +1,5 @@
 {
-    "name": "@nitro111/actionnetworkjs",
+    "name": "actionnetworkjs",
     "version": "1.0.0",
     "description": "A comprehensive client library, ensuring full compatibility with the ActionNetwork v2 API",
     "main": "./main.js",

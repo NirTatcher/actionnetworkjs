@@ -25,8 +25,8 @@ module.exports = {
         const form = require("./modules/forms/form").init(apiKey)
         const forms = require("./modules/forms/forms").init(apiKey)
 
-        const fundraisingPage = require("./modules/fundraising_pages/fundraising_page")
-        const fundraisingPages = require("./modules/fundraising_pages/fundraising_pages")
+        const fundraisingPage = require("./modules/fundraising_pages/fundraising_page").init(apiKey)
+        const fundraisingPages = require("./modules/fundraising_pages/fundraising_pages").init(apiKey)
 
         const item = require("./modules/items/item").init(apiKey)
         const items = require("./modules/items/items").init(apiKey)
@@ -34,41 +34,39 @@ module.exports = {
         const list = require("./modules/lists/list").init(apiKey)
         const lists = require("./modules/lists/lists").init(apiKey)
 
-        const message = require("./modules/messages/message")
-        const messages = require("./modules/messages/messages")
+        const message = require("./modules/messages/message").init(apiKey)
+        const messages = require("./modules/messages/messages").init(apiKey)
 
-        const metadata = require("./modules/metadata/metadata")
+        const metadata = require("./modules/metadata/metadata").init(apiKey)
 
-        const outreach = require("./modules/outreaches/outreach")
-        const outreaches = require("./modules/outreaches/outreaches")
+        const outreach = require("./modules/outreaches/outreach").init(apiKey)
+        const outreaches = require("./modules/outreaches/outreaches").init(apiKey)
 
         const person = require("./modules/people/person").init(apiKey)
         const people = require("./modules/people/people").init(apiKey)
 
-        const petition = require("./modules/petitions/petition")
-        const petitions = require("./modules/petitions/petitions")
+        const petition = require("./modules/petitions/petition").init(apiKey)
+        const petitions = require("./modules/petitions/petitions").init(apiKey)
 
-        const query = require("./modules/queries/query")
-        const queries = require("./modules/queries/queries")
+        const query = require("./modules/queries/query").init(apiKey)
+        const queries = require("./modules/queries/queries").init(apiKey)
 
-        const signature = require("./modules/signatures/signature")
-        const signatures = require("./modules/signatures/signatures")
+        const signature = require("./modules/signatures/signature").init(apiKey)
+        const signatures = require("./modules/signatures/signatures").init(apiKey)
 
-        const submission = require("./modules/submissions/submission")
-        const submissions = require("./modules/submissions/submissions")
+        const submission = require("./modules/submissions/submission").init(apiKey)
+        const submissions = require("./modules/submissions/submissions").init(apiKey)
 
-        const tagging = require("./modules/taggings/tagging")
-        const taggings = require("./modules/taggings/taggings")
+        const tagging = require("./modules/taggings/tagging").init(apiKey)
+        const taggings = require("./modules/taggings/taggings").init(apiKey)
 
-        const tag = require("./modules/tags/tag")
-        const tags = require("./modules/tags/tags")
+        const tag = require("./modules/tags/tag").init(apiKey)
+        const tags = require("./modules/tags/tags").init(apiKey)
 
-        const wrapper = require("./modules/wrappers/wrapper")
-        const wrappers = require("./modules/wrappers/wrappers")
+        const wrapper = require("./modules/wrappers/wrapper").init(apiKey)
+        const wrappers = require("./modules/wrappers/wrappers").init(apiKey)
 
 
-
-        const utils = require("./modules/utils/utils").init(apiKey)
 
         return {
             AdvocacyCampaigns: { advocacyCampaign, advocacyCampaigns },

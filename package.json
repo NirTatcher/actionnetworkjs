@@ -1,12 +1,12 @@
 {
     "name": "js-actionnetwork",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A comprehensive client library, ensuring full compatibility with the ActionNetwork v2 API",
-    "main": "./main.js",
+    "main": "./cjs/actionnetwork.js",
     "exports": {
         ".": {
-            "import": "./main.mjs",
-            "require": "./main.js"
+            "import": "./esm/actionnetwork.mjs",
+            "require": "./cjs/actionnetwork.js"
         }
     },
     "dependencies": {

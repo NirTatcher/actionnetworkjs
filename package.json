@@ -1,0 +1,17 @@
+{
+    "name": "actionnetworkjs",
+    "version": "1.0.0",
+    "description": "A comprehensive client library, ensuring full compatibility with the ActionNetwork v2 API",
+    "main": "./main.js",
+    "exports": {
+        ".": {
+            "import": "./main.mjs",
+            "require": "./main.js"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "license": "MIT",
+    "keywords": ["action-network","actionnetwork","api","client","javascript"],
+    "author": "NirTatcher"
+}

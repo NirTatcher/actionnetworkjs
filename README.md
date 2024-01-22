@@ -23,7 +23,6 @@ const ActionNetwork = require('js-actionnetwork').init('YOUR_API_KEY');
 ### ES Modules
 
 To use ActionNetworkJS in a ES Modules environment (using `import` syntax), you can you can import `js-actionnetwork` as follows:
-To use ES Modules (using `import` syntax), you can import `js-actionnetwork` like this:
 
 Replace `'YOUR_API_KEY'` with your actual ActionNetwork API key. The above example demonstrates how to initialize the library, access individual modules, and perform actions such as retrieving and creating resources.
 

@@ -13,5 +13,9 @@
     "devDependencies": {},
     "license": "MIT",
     "keywords": ["action-network","actionnetwork","api","client","javascript"],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NirTatcher/actionnetworkjs.git"
+      },
     "author": "NirTatcher"
 }

@@ -49,8 +49,8 @@ const an = ActionNetwork.init('YOUR_API_KEY');
 For ES Modules (using `import` syntax), you can import `js-actionnetwork` like this:
 
 ```sh
-import {init as ActionNetworkInit}  from 'js-actionnetwork';
-const an = ActionNetworkInit('YOUR_API_KEY');
+import ActionNetwork from 'js-actionnetwork';
+const an = ActionNetwork('YOUR_API_KEY');
 ```
 
 Once you have initialized `js-actionnetwork` with your API key, you can start using the various modules provided by the library. Here are some examples:

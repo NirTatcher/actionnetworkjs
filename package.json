@@ -9,9 +9,7 @@
             "require": "./cjs/actionnetwork.js"
         }
     },
-    "dependencies": {
-        "js-actionnetwork": "^1.0.0"
-    },
+    "dependencies": {},
     "license": "MIT",
     "keywords": [
         "action-network",

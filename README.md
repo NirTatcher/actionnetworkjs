@@ -1,10 +1,6 @@
 # ActionNetworkJS
 
-ActionNetworkJS is a JavaScript library that provides a convenient interface for interacting with the ActionNetwork API. It simplifies the process of managing various resources such as fundraising pages, donations, events, campaigns, and more. The library is designed to be flexible, allowing users to integrate ActionNetwork's functionalities into their JavaScript applications seamlessly. It supports both CommonJS and ES Module import styles to cater to a wide range of project configurations.
-
-## Setup
-
-`js-actionnetwork` is designed to work with both CommonJS and ES Modules, making it suitable for a wide range of JavaScript environments.
+ActionNetworkJS is a JavaScript library that provides a convenient interface for interacting with the ActionNetwork API. It simplifies the process of managing various resources such as fundraising pages, donations, events, campaigns, and more. The library is designed to be flexible, allowing users to integrate ActionNetwork's functionalities into their JavaScript applications seamlessly. `js-actionnetwork` is designed to work with both CommonJS and ES Modules, making it suitable for a wide range of JavaScript environments.
 
 ## Installation
 

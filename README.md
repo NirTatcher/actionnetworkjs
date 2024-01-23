@@ -1,4 +1,7 @@
 # ActionNetworkJS
+![npm](https://img.shields.io/npm/dw/js-actionnetwork)
+![npm](https://img.shields.io/npm/dm/js-actionnetwork)
+![npm](https://img.shields.io/npm/dy/js-actionnetwork)
 
 ActionNetworkJS is a JavaScript library that provides a convenient interface for interacting with the ActionNetwork API. It simplifies the process of managing various resources such as fundraising pages, donations, events, campaigns, and more. The library is designed to be flexible, allowing users to integrate ActionNetwork's functionalities into their JavaScript applications seamlessly. `js-actionnetwork` is designed to work with both CommonJS and ES Modules, making it suitable for a wide range of JavaScript environments.
 

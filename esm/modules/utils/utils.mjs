@@ -66,8 +66,8 @@ const utilsInit = (apiKey) => {
         postResources: async function (resourcePath, resourcePayloads) {
             const results = []
             let url = `${baseURL}/${resourcePath}`
-            let headersInner = { headers: headers, body: JSON.stringify(resourcePayload), method: "POST" }
             for (let i = 0; i < resourcePayloads.length; i++) {
+                let headersInner = { headers: headers, body: JSON.stringify(resourcePayloads[i]), method: "POST" }
                 let response = await fetch(url, headersInner)
                 let responseJson = await response.json()
                 results.push(responseJson)

@@ -9,7 +9,6 @@
             "require": "./cjs/actionnetwork.js"
         }
     },
-    "dependencies": {},
     "license": "MIT",
     "keywords": [
         "action-network",
@@ -22,5 +21,13 @@
         "type": "git",
         "url": "git+https://github.com/NirTatcher/actionnetworkjs.git"
     },
-    "author": "NirTatcher"
+    "author": "NirTatcher",
+    "devDependencies": {
+        "eslint": "^8.56.0"
+    },
+    "scripts": {
+        "lint:esm": "eslint ./esm --ext .js,.mjs",
+        "lint:cjs": "eslint ./cjs --ext .js",
+        "lint": "npm run lint:esm && npm run lint:cjs"
+      }
 }
